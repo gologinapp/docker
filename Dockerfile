@@ -16,7 +16,7 @@ RUN 	curl --silent --location https://deb.nodesource.com/setup_18.x | bash - &&\
 		apt-get -y -qq install build-essential &&\
 		fc-cache -f -v
 
-RUN wget https://dev.gologin.app/linux/orbita-13.0.16-linux.zip -O /tmp/orbita-browser.zip
+RUN wget https://dev.gologin.app/linux/orbita-107.1.1.4-linux.zip -O /tmp/orbita-browser.zip
 
 # GOLOGIN INSTALL
 RUN cd /tmp &&\
